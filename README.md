@@ -1,10 +1,5 @@
 # Local-privilege-escalation-scenarios
 
-# Local-privilege-escalation-scenarios
-
-privilege escalation scenarios
-
-
 1. **Sudo Privileges:** Check which commands the current user can run as sudo using the command `sudo -l`.
 
 2. **Misconfigured SUID and SGID Files:** Find all SUID files using `find / -perm -u=s -type f 2>/dev/null` and all SGID files using `find / -perm -g=s -type f 2>/dev/null`.
