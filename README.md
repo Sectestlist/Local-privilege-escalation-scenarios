@@ -1,7 +1,5 @@
 # Local-privilege-escalation-scenarios
 
-privilege escalation scenarios
-
 
 1. **Sudo Privileges:** Check which commands the current user can run as sudo using the command `sudo -l`.
 
