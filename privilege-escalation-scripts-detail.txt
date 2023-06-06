@@ -1,0 +1,43 @@
+Several scripts are available to automate the process of checking for potential local privilege escalation vulnerabilities. These scripts are usually not exhaustive and might not catch every possible vulnerability, but they can be a good starting point. Here are a few examples:
+
+1. **LinEnum:** LinEnum stands for Linux Enumeration. It's a simple script that automates many tasks associated with basic system enumeration to find potential privilege escalation vectors. LinEnum checks things like system information, network information, service information, scheduled tasks, and more.
+
+   [LinEnum on Github](https://github.com/rebootuser/LinEnum)
+
+2. **linux-exploit-suggester:** This script checks the current system against a list of known vulnerabilities that could potentially be used for local privilege escalation.
+
+   [linux-exploit-suggester on Github](https://github.com/mzet-/linux-exploit-suggester)
+
+3. **linux-smart-enumeration:** This script goes further than just suggesting potential exploits. It actually tests the system for these vulnerabilities and reports back with possible exploits based on the results.
+
+   [linux-smart-enumeration on Github](https://github.com/diego-treitos/linux-smart-enumeration)
+
+4. **Lynis:** Lynis is more than a script, it's a fully-featured auditing tool for Unix-based systems. It checks many different aspects of the system for potential security vulnerabilities, and provides detailed reports with suggestions for remediation.
+
+   [Lynis on Github](https://github.com/CISOfy/lynis)
+
+5. **Windows-Exploit-Suggester:** This Python script compares the system's patch level against the Microsoft vulnerability database to detect potential missing patches. 
+
+   [Windows-Exploit-Suggester on Github](https://github.com/AonCyberLabs/Windows-Exploit-Suggester)
+
+6. **Sherlock:** Sherlock is a PowerShell script used to find missing software patches for local privilege escalation vulnerabilities in Windows.
+
+   [Sherlock on Github](https://github.com/rasta-mouse/Sherlock)
+
+7. **JAWS:** JAWS is short for "Just Another Windows (Enum) Script". It's designed to help penetration testers with an initial Windows host enumeration.
+
+   [JAWS on Github](https://github.com/411Hall/JAWS)
+
+8. **unix-privesc-check:** This is a script that runs on Unix systems (Linux, *BSD, Solaris, etc.) It attempts to find misconfigurations that could allow local unprivileged users to escalate privileges to other users or to access local apps (e.g databases).
+
+   [unix-privesc-check on Github](https://github.com/pentestmonkey/unix-privesc-check)
+
+9. **MacOS Security Checklist:** This is not a script, but it's a helpful checklist that gives you guidance on what to check on a MacOS system to ensure it's secure.
+
+   [MacOS Security Checklist](https://github.com/drduh/macOS-Security-and-Privacy-Guide#checklist)
+
+10. **Lynis:** Lynis is a powerful tool that helps with auditing and hardening Unix and Linux systems. It's also compatible with MacOS.
+
+   [Lynis on Github](https://github.com/CISOfy/lynis)
+
+Remember, always use these tools responsibly. Only perform security testing on systems where you have explicit permission to do so, and be aware that some checks might impact system functionality or reveal sensitive information. It's always a good idea to backup any critical data before running these tools, and they should ideally be run in a controlled environment.
